@@ -1,5 +1,16 @@
 <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-<script>var obj = jQuery.parseJSON( '{ "name": "John" }' );
-alert( obj.name === "John" );</script>
+<script>var obj = jQuery.parseJSON({
+    "batchcomplete": "",
+    "query": {
+        "users": [
+            {
+                "userid": 25714004,
+                "name": "Tom29739",
+                "editcount": 359
+            }
+        ]
+    }
+});
+alert( obj.query.users.name === "Tom29739" );</script>
 <!-- This link will add ?run=true to your URL, myfilename.php?run=true -->
 <a href="script.php">Update code</a>
