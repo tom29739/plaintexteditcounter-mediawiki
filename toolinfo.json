@@ -1,0 +1,9 @@
+{
+    "name" : "plaintexteditcounter",
+    "title" : "Plain-text edit counter",
+    "description" : "A simple (WIP) edit counter that gives the edit count of a user in plain-text.",
+    "url" : "http://tools.wmflabs.org/plaintexteditcounter",
+    "keywords" : "plain-text, plain, text, edit, counter, editcounter, plaintexteditcounter, wikipedia, edit-counter",
+    "author" : "Tom29739",
+    "repository" : "https://github.com/tom29793/plaintexteditcounter-mediawiki.git"
+}
