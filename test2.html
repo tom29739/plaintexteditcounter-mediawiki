@@ -1,0 +1,9 @@
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+<script>
+$.get( "https://en.wikipedia.org/w/api.php?action=query&list=users&format=json&usprop=editcount&ususers=tom29739", function( data ) {
+  $( "body" )
+    .append( "Name: " + data.name ) // John
+    .append( "Time: " + data.time ); //  2pm
+}, "json" );
+</script>
