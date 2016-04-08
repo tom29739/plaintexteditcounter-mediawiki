@@ -47,3 +47,4 @@ _ReSharper*/
 
 # Log files
 git-pull-log.txt
+vendor/
