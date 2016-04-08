@@ -1,6 +1,6 @@
 <?php
 
-ini_set("user_agent", 'ExampleProject/0.0 (wikimedia@stwalkerster.co.uk)');
+ini_set("user_agent", 'https://tools.wmflabs.org/plaintexteditcounter - any problems please tell tom29739 at https://en.wikipedia.org/User:Tom29739');
 
 // bomb out early if no username specified
 if (!isset($_GET['username'])) {
